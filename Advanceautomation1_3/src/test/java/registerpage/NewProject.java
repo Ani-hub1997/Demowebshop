@@ -7,7 +7,7 @@ import genericUtilities.BaseClass;
 public class NewProject extends BaseClass {
 	@Test
 public void demowebshop() {
-		driver.get("https://www.facebook.com");
+		driver.navigate().to("https://www.facebook.com");
 	
 }
 }
